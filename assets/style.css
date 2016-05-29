@@ -1,0 +1,21 @@
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input.search-input {
+  font-size: 16px;
+  width: 300px;
+}
+
+.search {
+  padding-top: 1em;
+}

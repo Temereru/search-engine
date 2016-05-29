@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Shakespeare Search</title>
+    <script src="assets/jquery-2.2.3.min.js"></script>
+    <script src="assets/lodash.core.min.js"></script>
+
+    <script src="lib/corpus.js"></script>
+    <script src="lib/stopwords.js"></script>
+    <script src="lib/search.js"></script>
+    <script src="lib/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+  </head>
+  <body style="background-image:url(assets/paper.jpg)">
+    <div class="container">
+      <img src="assets/shakespeare.jpg" alt="Shakespeare" width="800">
+      <div class="search">
+        <form id="query" action="#">
+          <input type="text" class="search-input" value="">
+          <input type="submit" value="Search">
+        </form>
+      </div>
+
+      <h2>Results</h2>
+      <div class="results">
+        <ul>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
